@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		759C10172371DBED00EBDA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C10162371DBED00EBDA86 /* AppDelegate.swift */; };
 		759C10192371DBED00EBDA86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C10182371DBED00EBDA86 /* SceneDelegate.swift */; };
-		759C101B2371DBED00EBDA86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C101A2371DBED00EBDA86 /* ViewController.swift */; };
 		759C101E2371DBED00EBDA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759C101C2371DBED00EBDA86 /* Main.storyboard */; };
 		759C10212371DBED00EBDA86 /* GuiaBolsoBRQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759C101F2371DBED00EBDA86 /* GuiaBolsoBRQ.xcdatamodeld */; };
 		759C10232371DBF000EBDA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759C10222371DBF000EBDA86 /* Assets.xcassets */; };
 		759C10262371DBF000EBDA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759C10242371DBF000EBDA86 /* LaunchScreen.storyboard */; };
+		759C102E2371E76700EBDA86 /* ListaContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C102D2371E76700EBDA86 /* ListaContaViewController.swift */; };
+		759C10302371E77F00EBDA86 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C102F2371E77F00EBDA86 /* CadastroViewController.swift */; };
+		759C10322371E79300EBDA86 /* ExtratoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C10312371E79300EBDA86 /* ExtratoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		759C10132371DBED00EBDA86 /* GuiaBolsoBRQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaBolsoBRQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759C10162371DBED00EBDA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		759C10182371DBED00EBDA86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		759C101A2371DBED00EBDA86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		759C101D2371DBED00EBDA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		759C10202371DBED00EBDA86 /* GuiaBolsoBRQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuiaBolsoBRQ.xcdatamodel; sourceTree = "<group>"; };
 		759C10222371DBF000EBDA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		759C10252371DBF000EBDA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		759C10272371DBF000EBDA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759C102D2371E76700EBDA86 /* ListaContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaContaViewController.swift; sourceTree = "<group>"; };
+		759C102F2371E77F00EBDA86 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		759C10312371E79300EBDA86 /* ExtratoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtratoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				759C10152371DBED00EBDA86 /* GuiaBolsoBRQ */,
-				759C10142371DBED00EBDA86 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +56,7 @@
 				759C10132371DBED00EBDA86 /* GuiaBolsoBRQ.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		759C10152371DBED00EBDA86 /* GuiaBolsoBRQ */ = {
@@ -60,12 +64,15 @@
 			children = (
 				759C10162371DBED00EBDA86 /* AppDelegate.swift */,
 				759C10182371DBED00EBDA86 /* SceneDelegate.swift */,
-				759C101A2371DBED00EBDA86 /* ViewController.swift */,
+				759C102D2371E76700EBDA86 /* ListaContaViewController.swift */,
+				759C102F2371E77F00EBDA86 /* CadastroViewController.swift */,
+				759C10312371E79300EBDA86 /* ExtratoViewController.swift */,
 				759C101C2371DBED00EBDA86 /* Main.storyboard */,
 				759C10222371DBF000EBDA86 /* Assets.xcassets */,
 				759C10242371DBF000EBDA86 /* LaunchScreen.storyboard */,
 				759C10272371DBF000EBDA86 /* Info.plist */,
 				759C101F2371DBED00EBDA86 /* GuiaBolsoBRQ.xcdatamodeld */,
+				759C10142371DBED00EBDA86 /* Products */,
 			);
 			path = GuiaBolsoBRQ;
 			sourceTree = "<group>";
@@ -141,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				759C101B2371DBED00EBDA86 /* ViewController.swift in Sources */,
 				759C10172371DBED00EBDA86 /* AppDelegate.swift in Sources */,
 				759C10192371DBED00EBDA86 /* SceneDelegate.swift in Sources */,
+				759C10322371E79300EBDA86 /* ExtratoViewController.swift in Sources */,
+				759C102E2371E76700EBDA86 /* ListaContaViewController.swift in Sources */,
+				759C10302371E77F00EBDA86 /* CadastroViewController.swift in Sources */,
 				759C10212371DBED00EBDA86 /* GuiaBolsoBRQ.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AS994HB957;
 				INFOPLIST_FILE = GuiaBolsoBRQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AS994HB957;
 				INFOPLIST_FILE = GuiaBolsoBRQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
